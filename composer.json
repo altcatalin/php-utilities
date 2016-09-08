@@ -1,0 +1,30 @@
+{
+  "name": "altcatalin/php-utilities",
+  "description": "Collection of useful PHP utilities.",
+  "type": "library",
+  "keywords": [ "php", "utilities", "array"],
+  "homepage": "https://github.com/altcatalin/php-utilities",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cataln Piscureanu",
+      "email": "catalin.piscureanu@outlook.com"
+    }
+  ],
+  "require": {
+    "php": "^5.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhpUtilities\\": "./src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PhpUtilities\\Test\\" : "./test"
+    }
+  }
+}
