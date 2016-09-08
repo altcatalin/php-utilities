@@ -1,3 +1,5 @@
+# directories
 vendor
 
+#files
 composer.lock
