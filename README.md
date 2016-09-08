@@ -1,0 +1,3 @@
+##php-utilities
+
+[![Build Status](https://travis-ci.org/altcatalin/php-utilities.svg?branch=master)](https://travis-ci.org/altcatalin/php-utilities) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/altcatalin/php-utilities/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/altcatalin/php-utilities/?branch=master) [![Code Coverage](https://scrutinizer-ci.com/g/altcatalin/php-utilities/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/altcatalin/php-utilities/?branch=master)
