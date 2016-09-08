@@ -27,6 +27,18 @@ class ArrayUtilityTest extends \PHPUnit_Framework_TestCase
     {
         ArrayUtility::isMinimumProvided($required, $provided);
     }
+    
+    public function testIsMinimumProvidedReturnTrueWhenMinimumProvided()
+    {
+        $required = array(
+            'Foo' => array(
+                'Bar' => 'Something'
+            )
+        );
+
+        $result = ArrayUtility::isMinimumProvided($required, $required);
+        $this->assertTrue($result);
+    }
 
     /**
      * @return array

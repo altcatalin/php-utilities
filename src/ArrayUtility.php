@@ -5,12 +5,12 @@ namespace PhpUtilities;
 class ArrayUtility
 {
     /**
-     * Check for minimum array structure
+     * Check for minimum array structure.
      *
      * @param $required
      * @param $provided
-     * @return bool
      * @throws \ErrorException
+     * @return bool
      */
     public static function isMinimumProvided($required, $provided)
     {
@@ -26,8 +26,7 @@ class ArrayUtility
             if (is_array($value)) {
                 try {
                     return self::isMinimumProvided($value, $provided[$key]);
-                }
-                catch (\ErrorException $e) {
+                } catch (\ErrorException $e) {
                     return false;
                 }
             }
